@@ -13,19 +13,18 @@
 | ECtHR (Chalkidis et al., 2021) | [📄](https://arxiv.org/abs/2103.13084) [🤗](https://huggingface.co/datasets/ecthr_cases) | EU court judgments | 🇬🇧 | 11K cases w/ 11 outcomes |
 | ECHR (Aletras et al., 2019) | [📄](https://arxiv.org/abs/1906.02059) [💾](https://archive.org/details/ECHR-ACL2019) | EU court judgments | 🇬🇧 | 11.5K cases w/ 11 outcomes |
 | CAIL (Xiao et al., 2018) | [📄](https://arxiv.org/abs/1807.02478) [💻](https://github.com/china-ai-law-challenge/CAIL2018) | Chinese court judgements | 🇨🇳 | 2.6M cases w/ 6 outcomes |
-
 | AnnoCaseLaw (2025) | [📄](https://arxiv.org/abs/2503.00128) [💻](https://github.com/anonymouspolar1/annocaselaw) | US Appeals Court negligence cases | 🇺🇸 | 471 annotated cases with expert labels |
 | IndianBailJudgments-1200 (2025) | [📄](https://arxiv.org/abs/2507.02506) [🤗](https://huggingface.co/datasets/SnehaDeshmukh/IndianBailJudgments-1200) [💻](https://github.com/SnehaDeshmukh28/IndianBailJudgments-1200) | Indian court bail decisions | 🇮🇳 | 1.2K judgments with 20+ structured attributes |
 | CaseSumm (2025) | [📄](https://arxiv.org/abs/2501.00097) [🤗](https://huggingface.co/datasets/ChicagoHAI/CaseSumm) | US Supreme Court opinions | 🇺🇸 | 25.6K opinions with official syllabuses |
-| JUSTICE (2022) | [📄](https://arxiv.org/abs/2210.13448) [💻](https://github.com/Sanavesa/JUSTICE-Judgment-Prediction) | US Supreme Court cases | 🇺🇸 | Benchmark for judgment prediction |
-| Cambridge Law Corpus (CLC) (2025) | [📄](https://arxiv.org/html/2503.04305v3) | UK court cases | 🇬🇧 | 258K+ cases (16th century–present) |
-| Super-SCOTUS (2025) | [📄](https://arxiv.org/html/2503.04305v1) | US Supreme Court decisions | 🇺🇸 | Decision direction and related tasks |
+| JUSTICE (2022) | [📄](https://arxiv.org/abs/2112.03414) [💻](https://github.com/Sanavesa/JUSTICE-Judgment-Prediction) | US Supreme Court cases | 🇺🇸 | Benchmark for judgment prediction |
+| Cambridge Law Corpus (CLC) (2023) | [📄](https://arxiv.org/abs/2309.12269) | UK court cases | 🇬🇧 | 258K+ cases (16th century–present) |
+| Super-SCOTUS (2025) | [📄](https://aclanthology.org/2023.nllp-1.20/) [💻](https://github.com/biaoyanf/Super-SCOTUS)| US Supreme Court decisions | 🇺🇸 | Decision direction and related tasks |
 
 #### <ins>Legal Text Classification</ins> (LTC)
 
 | Dataset | Links | Domain | Language | Size |
 |---|---|---|---|---|
-| GLC (Papaloukas et al., 2021) | [📄](https://arxiv.org/abs/2109.15298) [🤗](https://huggingface.co/datasets/greek_legal_code) [💻](https://github.com/christospi/glc-nllp-21) | Greek legislation | 🇬🇷  | 47.5K laws w/ 2.7K labels |
+| GLC (Papaloukas et al., 2021) | [📄](https://arxiv.org/abs/2109.15298) [💻](https://github.com/christospi/glc-nllp-21) | Greek legislation | 🇬🇷  | 47.5K laws w/ 2.7K labels |
 | CUAD (Hendrycks et al., 2021) | [📄](https://arxiv.org/abs/2103.06268) [🤗](https://huggingface.co/datasets/cuad) [💻](https://github.com/TheAtticusProject/cuad)| Contracts | 🇬🇧  | 510 contracts w/ 41 classes |
 | MultiEURLEX (Chalkidis et al., 2021) | [📄](https://arxiv.org/abs/2109.00904) [🤗](https://huggingface.co/datasets/multi_eurlex) [💻](https://github.com/nlpaueb/multi-eurlex) | EU legislation | 🇬🇧 🇩🇪 🇫🇷 🇮🇹 🇪🇸 (18+) | 65K laws w/ 4.5K labels |
 | LEDGAR (Tuggener et al., 2020) |  [📄](https://aclanthology.org/2020.lrec-1.155) [💾](https://drive.switch.ch/index.php/s/j9S0GRMAbGZKa1A) | Contracts | 🇬🇧 | 60.5K contracts w/ 12.6K labels |
@@ -37,7 +36,7 @@
 
 | FairLex (2022) | [📄](https://aclanthology.org/2022.acl-long.301/) [🤗](https://huggingface.co/datasets/coastalcph/fairlex) [💻](https://github.com/coastalcph/fairlex) | Multi-jurisdictional legal texts | 🇬🇧🇩🇪🇫🇷🇮🇹🇨🇳 | Fairness-focused classification datasets |
 | Legal Case Document Summarization (Kaggle) | [📄](https://www.kaggle.com/datasets/kageneko/legal-case-document-summarization) | Legal case summaries | Various | Large-scale dataset |
-| Legal Text Classification Dataset (Kaggle) | [📄](https://www.kaggle.com/datasets/amohankumar/legal-text-classification-dataset) | General legal documents | 🇬🇧 | 25K cases with catchphrases and citations |
+| Legal Citation Text Classification Dataset (Kaggle) | [📄](https://www.kaggle.com/datasets/amohankumar/legal-text-classification-dataset) | General legal documents | 🇬🇧 | 25K cases with catchphrases and citations |
 
 #### <ins>Legal Information Retrieval</ins> (LIR)
 
@@ -51,7 +50,7 @@
 | CAIL2019-SCM (Xiao et al., 2019) | [📄](https://arxiv.org/abs/1911.08962) [💻](https://github.com/china-ai-law-challenge/CAIL2019/tree/master/scm) | Chinese court judgements | 🇨🇳 | 8.9K triplets of cases |
 
 | CLERC (2024) | [📄](https://arxiv.org/abs/2406.17186) [🤗](https://huggingface.co/datasets/jhu-clsp/CLERC) [💻](https://github.com/bohanhou14/CLERC) | Legal case retrieval | 🇬🇧 | Large corpus for retrieval and RAG |
-| LEAD (2024) | [📄](https://arxiv.org/abs/2406.17186) [💻](https://github.com/thunlp/LEAD) | Legal case retrieval | Various | 100K+ pairs of similar legal cases |
+| LEAD (2024) | [📄](https://arxiv.org/abs/2410.06581) [💻](https://github.com/thunlp/LEAD) | Legal case retrieval | Various | 100K+ pairs of similar legal cases |
 | Legal IR Philippines (2024) | [📄](https://aclanthology.org/2024.paclic-1.35.pdf) | Philippine legal documents | 🇵🇭 | Datasets with synthetic queries |
 
 #### <ins>Legal Question Answering</ins> (LQA)
@@ -63,12 +62,10 @@
 | CJRC (Duan et al., 2019) | [📄](https://arxiv.org/abs/1912.09156) [💻](https://github.com/china-ai-law-challenge/CAIL2019) | Chinese court judgements | 🇨🇳 | 50K question-answers from 10K documents |
 | PrivacyQA (Ravichander et al., 2019) | [📄](https://arxiv.org/abs/1911.00841) [💻](https://github.com/AbhilashaRavichander/PrivacyQA_EMNLP) | Privacy policies | 🇬🇧 | 1.7K question-answers from 35 documents |
 
-| LLeQA (2024) | [📄](https://cris.maastrichtuniversity.nl/files/213988326/Dijck-2024-Interpretable-Long-Form-Legal-Question.pdf) [🤗](https://huggingface.co/datasets/maastrichtlawtech/lleqa) [💻](https://github.com/maastrichtlawtech/lleqa) | French-Belgian statutes | 🇫🇷 | 1,868 expert-annotated long-form QA |
+| LLeQA (2024) | [📄](https://arxiv.org/abs/2309.17050) [🤗](https://huggingface.co/datasets/maastrichtlawtech/lleqa) [💻](https://github.com/maastrichtlawtech/lleqa) | French-Belgian statutes | 🇫🇷 | 1,868 expert-annotated long-form QA |
 | IndicLegalQA (2025) | [📄](https://www.sciencedirect.com/science/article/pii/S2352340925003774) | Indian Supreme Court judgments | 🇮🇳 | 10K QA pairs from 1,256 judgments |
-| GerLayQA (2024) | [📄](https://aclanthology.org/2024.eacl-long.122/) | German civil law | 🇩🇪 | 21K laymen legal Qs with lawyer answers |
-| LEGAL-UQA (2024) | [📄](https://arxiv.org/abs/2410.13013) | Legal questions | 🇺🇸🇬🇧 | 619 parallel Urdu–English QA pairs |
-| Q4PIL (2025) | [📄](https://arxiv.org/html/2503.04305v3) | Private International Law | 🇬🇧 | 17 questions based on EU regulations |
-| ALQAC 2024 Dataset (2024) | [📄](https://sites.google.com/view/ALQAC-2024) | Vietnamese statute laws | 🇻🇳 | Competition annotations for legal QA |
+| GerLayQA (2024) | [📄](https://aclanthology.org/2024.eacl-long.122/) [💻](https://github.com/trusthlt/eacl24-german-legal-questions)| German civil law | 🇩🇪 | 21K laymen legal Qs with lawyer answers |
+| LEGAL-UQA (2024) | [📄](https://arxiv.org/abs/2410.13013) | Legal questions | 🇵🇰 | 619 parallel Urdu–English QA pairs |
 
 #### <ins>Legal Textual Entailment</ins> (LTE)
 
@@ -78,7 +75,7 @@
 | COLIEE-Statute-Law-Entailment (Rabelo et al., 2020) | [📄](https://sites.ualberta.ca/~rabelo/COLIEE2021/COLIEE_2020_summary.pdf) [💾](https://sites.ualberta.ca/~rabelo/COLIEE2020/) | Japanese legislation | 🇬🇧 🇯🇵 |  808 questions w/ related statutory article |
 
 | LAR-ECHR (2024) | [📄](https://arxiv.org/html/2410.13352v1) | European Court of Human Rights | 🇬🇧 | Legal argument reasoning task dataset |
-| δ-Stance (2025) | [📄](https://aclanthology.org/2025.acl-long.1517.pdf) | US legal argumentation | 🇬🇧 | Large-scale stances and arguments |
+| δ-Stance (2025) | [📄](https://aclanthology.org/2025.acl-long.1517.pdf) | US legal argumentation | 🇺🇸 | Large-scale stances and arguments |
 
 #### <ins>Legal Text Summarization</ins> (LTS)
 
@@ -128,7 +125,7 @@
 | MultiLegalPile Models (2024-2025) | [📄](https://reglab.stanford.edu/publications/multilegalpile/) [🤗](https://huggingface.co/collections/joelniklaus/multilegalpile-datasets-6535db705f5e918bdc17ecc7) | 🌍 | RoBERTa (multilingual + 24 monolingual), Longformer |
 | Legal-BERT Fine-tuned (2024) | [📄](https://towardsai.net/p/artificial-intelligence/fine-tuning-legal-bert-llms-for-automated-legal-text-classification) | 🇬🇧 | Domain-adapted classification models |
 | LegalCore Models (2025) | [📄](https://aclanthology.org/2025.findings-acl.1284.pdf) | 🌍 | Event coreference resolution for legal texts |
-| Legal LLaMA (2025) | [📄](https://arxiv.org/html/2507.01259v1) | 🇨🇳 | Chinese legal domain adaptations |
+| Legal LLaMA (2025) | [📄](https://arxiv.org/abs/2305.15062) | 🇨🇳 | Chinese legal domain adaptations |
 | FairLex Domain Models (2024-2025) | [🤗](https://huggingface.co/collections/coastalcph/legal-nlp-683ffd107b0dc24048c449ae) | 🌍 | Domain-specific BERT models for 4 jurisdictions |
 
 ## 📚  Books
@@ -137,7 +134,6 @@
 
 - [`2024`] *Large Language Models and International Law*, Chicago Journal of International Law [[🌐]](https://cjil.uchicago.edu/print-archive/large-language-models-and-international-law)
 - [`2024`] *Computational Legal Studies Comes of Age*, SSRN [[📄]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4826144)
-- [`2024`] *Natural Language Processing in Legal Document Analysis: A Systematic Review*, IJIRSS [[📄]](https://www.ijirss.com/index.php/ijirss/article/view/7702)
 
 ## 📄  Surveys
 
@@ -211,33 +207,6 @@ Other cool resources to check:
 
 - LegalEval-Q: Quality evaluation for LLM-generated legal text [[📄]](https://arxiv.org/html/2505.24826v1)
 - FairLex Evaluation: Bias and fairness assessment [[🌐]](https://huggingface.co/datasets/coastalcph/fairlex)
-
-## 📈  Key Trends and Insights
-
-1. Multilingual Expansion: 24+ languages across diverse legal systems
-2. Scale and Quality: Massive datasets with expert annotations and practical tasks
-3. LLM Integration: Domain-adapted models, comprehensive benchmarks, quality metrics
-4. Task Diversification: LegalBench 162 tasks, emerging NER and argument mining
-5. Professional Integration: Growing industry events and cross-domain applications
-
-## 🚀  Implementation Recommendations
-
-### For Researchers
-1. Focus on multilingual models and cross-jurisdictional evaluation
-2. Prioritize expert-annotated datasets for higher quality
-3. Use comprehensive benchmarks like LegalBench
-
-### For Practitioners
-1. Adopt domain-adapted LLMs for core legal tasks
-2. Implement robust quality assessment frameworks
-3. Build multilingual capabilities for cross-jurisdiction use cases
-
-### For Repository Maintainers
-1. Regularly update with peer-reviewed and expert-validated resources
-2. Curate for quality and practical relevance
-3. Engage legal professionals for validation and feedback
-
----
 
 Last Updated: 2025-09-30
 Research Coverage: 2024-01 to 2025-09
