@@ -33,7 +33,6 @@
 | Unfair-ToS (Lippi et al., 2018) | [📄](https://arxiv.org/abs/1805.01217) [💾](http://155.185.228.137/claudette/ToS.zip) | Contracts | 🇬🇧 | 9.4K sentences w/ 9 classes |
 | Contract Elements (Chalkidis et al., 2017) | [📄](https://dl.acm.org/doi/10.1145/3086512.3086515) [💾](http://nlp.cs.aueb.gr/software_and_datasets/CONTRACTS_ICAIL2017/index.html) | Contracts | 🇬🇧 | 2.4K contracts w/ 10 classes |
 | OPP-115 (Wilson et al., 2016) | [📄](https://aclanthology.org/P16-1126) [💾](https://usableprivacy.org/data) | Privacy laws | 🇬🇧 | 115 policies w/ 23K labels |
-
 | FairLex (2022) | [📄](https://aclanthology.org/2022.acl-long.301/) [🤗](https://huggingface.co/datasets/coastalcph/fairlex) [💻](https://github.com/coastalcph/fairlex) | Multi-jurisdictional legal texts | 🇬🇧🇩🇪🇫🇷🇮🇹🇨🇳 | Fairness-focused classification datasets |
 | Legal Case Document Summarization (Kaggle) | [📄](https://www.kaggle.com/datasets/kageneko/legal-case-document-summarization) | Legal case summaries | Various | Large-scale dataset |
 | Legal Citation Text Classification Dataset (Kaggle) | [📄](https://www.kaggle.com/datasets/amohankumar/legal-text-classification-dataset) | General legal documents | 🇬🇧 | 25K cases with catchphrases and citations |
@@ -48,7 +47,6 @@
 | COLIEE-Case-Law-Retrieval (Rabelo et al., 2020) | [📄](https://sites.ualberta.ca/~rabelo/COLIEE2021/COLIEE_2020_summary.pdf) [💾](https://sites.ualberta.ca/~rabelo/COLIEE2020/) | Canadian precedents | 🇬🇧 |  650 query cases w/ 128K candidate cases |
 | COLIEE-Statute-Law-Retrieval (Rabelo et al., 2020) | [📄](https://sites.ualberta.ca/~rabelo/COLIEE2021/COLIEE_2020_summary.pdf) [💾](https://sites.ualberta.ca/~rabelo/COLIEE2020/) | Japanese legislation | 🇬🇧 🇯🇵 |  808 questions w/ 768 candidate statutory articles |
 | CAIL2019-SCM (Xiao et al., 2019) | [📄](https://arxiv.org/abs/1911.08962) [💻](https://github.com/china-ai-law-challenge/CAIL2019/tree/master/scm) | Chinese court judgements | 🇨🇳 | 8.9K triplets of cases |
-
 | CLERC (2024) | [📄](https://arxiv.org/abs/2406.17186) [🤗](https://huggingface.co/datasets/jhu-clsp/CLERC) [💻](https://github.com/bohanhou14/CLERC) | Legal case retrieval | 🇬🇧 | Large corpus for retrieval and RAG |
 | LEAD (2024) | [📄](https://arxiv.org/abs/2410.06581) [💻](https://github.com/thunlp/LEAD) | Legal case retrieval | Various | 100K+ pairs of similar legal cases |
 | Legal IR Philippines (2024) | [📄](https://aclanthology.org/2024.paclic-1.35.pdf) | Philippine legal documents | 🇵🇭 | Datasets with synthetic queries |
@@ -61,7 +59,6 @@
 | JEC-QA (Zhong et al., 2019) | [📄](https://arxiv.org/abs/1911.12011) [💾](https://jecqa.thunlp.org/) | Chinese law | 🇨🇳  | 26.3K multiple-choice questions |
 | CJRC (Duan et al., 2019) | [📄](https://arxiv.org/abs/1912.09156) [💻](https://github.com/china-ai-law-challenge/CAIL2019) | Chinese court judgements | 🇨🇳 | 50K question-answers from 10K documents |
 | PrivacyQA (Ravichander et al., 2019) | [📄](https://arxiv.org/abs/1911.00841) [💻](https://github.com/AbhilashaRavichander/PrivacyQA_EMNLP) | Privacy policies | 🇬🇧 | 1.7K question-answers from 35 documents |
-
 | LLeQA (2024) | [📄](https://arxiv.org/abs/2309.17050) [🤗](https://huggingface.co/datasets/maastrichtlawtech/lleqa) [💻](https://github.com/maastrichtlawtech/lleqa) | French-Belgian statutes | 🇫🇷 | 1,868 expert-annotated long-form QA |
 | IndicLegalQA (2025) | [📄](https://www.sciencedirect.com/science/article/pii/S2352340925003774) | Indian Supreme Court judgments | 🇮🇳 | 10K QA pairs from 1,256 judgments |
 | GerLayQA (2024) | [📄](https://aclanthology.org/2024.eacl-long.122/) [💻](https://github.com/trusthlt/eacl24-german-legal-questions)| German civil law | 🇩🇪 | 21K laymen legal Qs with lawyer answers |
@@ -73,7 +70,6 @@
 |---|---|---|---|---|
 | COLIEE-Case-Law-Entailment (Rabelo et al., 2020) | [📄](https://sites.ualberta.ca/~rabelo/COLIEE2021/COLIEE_2020_summary.pdf) [💾](https://sites.ualberta.ca/~rabelo/COLIEE2020/) | Canadian precedents | 🇬🇧 |  425 cases w/ related case |
 | COLIEE-Statute-Law-Entailment (Rabelo et al., 2020) | [📄](https://sites.ualberta.ca/~rabelo/COLIEE2021/COLIEE_2020_summary.pdf) [💾](https://sites.ualberta.ca/~rabelo/COLIEE2020/) | Japanese legislation | 🇬🇧 🇯🇵 |  808 questions w/ related statutory article |
-
 | LAR-ECHR (2024) | [📄](https://arxiv.org/html/2410.13352v1) | European Court of Human Rights | 🇬🇧 | Legal argument reasoning task dataset |
 | δ-Stance (2025) | [📄](https://aclanthology.org/2025.acl-long.1517.pdf) | US legal argumentation | 🇺🇸 | Large-scale stances and arguments |
 
@@ -90,7 +86,6 @@
 | TOS;DR (Manor et al., 2019) | [📄](https://aclanthology.org/W19-2201/) [💻](https://github.com/lauramanor/legal_summarization/blob/master/tosdr_annotated_v1.json) | Terms of service | 🇬🇧 | 421 pairs of (agreement text, summary) from data privacy policies |
 | BVA Cases (Zhong et al., 2019) | [📄](https://dl.acm.org/doi/10.1145/3322640.3326728) [💻](https://github.com/luimagroup/bva-summarization) | US court cases | 🇬🇧 | 92 pairs of (case, summary) from the US Board of Veterans' Appeal |
 | LCR (Galgani et al., 2012) | [📄](https://aclanthology.org/W12-0515/) [💾](https://archive.ics.uci.edu/ml/datasets/Legal+Case+Reports) | Australian court cases | 🇬🇧 | 3.9K pairs of (case, catchphrases) |
-
 | EurLexSummarization (2022) | [📄](https://aclanthology.org/2022.emnlp-main.519/) [🤗](https://huggingface.co/datasets/dennlinger/eur-lex-sum) [💻](https://github.com/achouhan93/eur-lex-sum) | EU legislation | 🌍 | Multilingual summarization across 24 languages |
 | Multi-LexSum (2025) | [📄](https://arxiv.org/html/2503.04305v2) | Legal documents | 🇬🇧 | 40K+ documents with 9K+ expert summaries |
 | CaseSumm (2025) | [📄](https://arxiv.org/abs/2501.00097) [🤗](https://huggingface.co/datasets/ChicagoHAI/CaseSumm) | US Supreme Court opinions | 🇬🇧 | 25.6K opinions with official syllabuses |
@@ -100,7 +95,6 @@
 | Dataset | Links | Language | Size |
 |---|---|---|---|
 | Pile of Law (Henderson et al., 2022) | [📄](https://arxiv.org/abs/2207.00220) [🤗](https://huggingface.co/datasets/pile-of-law/pile-of-law) [💻](https://github.com/Breakend/PileOfLaw) | 🇬🇧 | ~256GB of legal and administrative legal text |
-
 | MultiLegalPile (2024) | [📄](https://aclanthology.org/2024.acl-long.805/) [🤗](https://huggingface.co/datasets/joelniklaus/Multi_Legal_Pile) | 🌍 | 689GB multilingual legal corpus from 17 jurisdictions |
 
 #### <ins>Benchmarks</ins>
@@ -121,7 +115,6 @@
 | Custom-LEGAL-BERT (Zheng et al., 2021) | [📄](https://arxiv.org/abs/2104.08671) [🤗](https://huggingface.co/zlucia/custom-legalbert) [💻](https://github.com/reglab/casehold) | 🇬🇧  | 110M |
 | LEGAL-BERT (Chalkidis et al., 2020) | [📄](https://arxiv.org/abs/2010.02559) [🤗](https://huggingface.co/nlpaueb/legal-bert-base-uncased) | 🇬🇧  | {35M, 110M} |
 | LEGAL-GPT-{1,2} (Borchmann et al., 2020) | [📄](https://arxiv.org/abs/1911.03911) [💻](https://github.com/applicaai/contract-discovery) | 🇬🇧  | {117M, 1.5B} |
-
 | MultiLegalPile Models (2024-2025) | [📄](https://reglab.stanford.edu/publications/multilegalpile/) [🤗](https://huggingface.co/collections/joelniklaus/multilegalpile-datasets-6535db705f5e918bdc17ecc7) | 🌍 | RoBERTa (multilingual + 24 monolingual), Longformer |
 | Legal-BERT Fine-tuned (2024) | [📄](https://towardsai.net/p/artificial-intelligence/fine-tuning-legal-bert-llms-for-automated-legal-text-classification) | 🇬🇧 | Domain-adapted classification models |
 | LegalCore Models (2025) | [📄](https://aclanthology.org/2025.findings-acl.1284.pdf) | 🌍 | Event coreference resolution for legal texts |
